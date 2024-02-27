@@ -1,0 +1,103 @@
+[
+    {
+        "title": "Social Hub",
+        "description": "Social media website that allows you to create, like and comment on posts. React frontend with Redux for state management. RESTful backend for usernames and posts/comments CRUD. Second REST backend for image handling with AWS S3. MongoDB used for database storage for username/posts/comments info. OAuth2 used for signing in with Google accounts.",
+        "github": "PLACEHOLDER",
+        "link": "PLACEHOLDER WEBSITE",
+        "images": [
+            "src/assets/images/socialhub.png",
+            "src/assets/images/placeholder2.png",
+            "src/assets/images/placeholder_mobile.png"
+        ],
+        "tech": [
+            "react",
+            "sass",
+            "node",
+            "express",
+            "mongo",
+            "aws-s3",
+            "aws-lambda"
+        ]
+    },
+    {
+        "title": "E-Commerce",
+        "description": "An e-commerce website that allows account creation and purchasing with Stripe integration. The backend RESTful Api runs on Express. React is used for the frontend. Postgres is used for the backend DB and SASS for CSS styling.OAuth and Cookies provide authorization and checkout cart tracking.",
+        "github": "PLACEHOLDER",
+        "link": "PLACEHOLDER WEBSITE",
+        "images": [
+            "src/assets/images/placeholder.png",
+            "src/assets/images/placeholder2.png",
+            "src/assets/images/placeholder_mobile.png"
+        ],
+        "tech": [
+            "react",
+            "sass",
+            "node",
+            "express",
+            "postgres",
+            "aws-s3",
+            "aws-lambda"
+        ]
+    },
+    {
+        "title": "URL Shortener",
+        "description": "A simple React frontend that generates random shortened URLs and a QR code for any website the user wishes to link to. TThe backend runs off of Express and the URL links are stored/retrieved from a PostgreSQL database.",
+        "github": "PLACEHOLDER",
+        "link": "PLACEHOLDER WEBSITE",
+        "images": [
+            "src/assets/images/url-shortener.png",
+            "src/assets/images/placeholder2.png",
+            "src/assets/images/placeholder_mobile.png"
+        ],
+        "tech": ["react", "node", "express", "postgres", "aws-lambda"]
+    },
+    {
+        "title": "Wordle Clone",
+        "description": "A wordle clone that is built in React using object orientated programming principals. The app uses CSS styling that is targeted toward mobile users.",
+        "github": "PLACEHOLDER",
+        "link": "PLACEHOLDER WEBSITE",
+        "images": [
+            "src/assets/images/wordle.png",
+            "src/assets/images/placeholder2.png",
+            "src/assets/images/placeholder_mobile.png"
+        ],
+        "tech": ["react", "sass", "node"]
+    },
+
+    {
+        "title": "Weather App",
+        "description": "A simple React frontend weather app that uses two APIs to find the location and weather.Using Mapbox's API to find geolocation data for a user and WeatherStack's API to find and display weather for that location.",
+        "github": "PLACEHOLDER",
+        "link": "PLACEHOLDER WEBSITE",
+        "images": [
+            "src/assets/images/weather.png",
+            "src/assets/images/placeholder2.png",
+            "src/assets/images/placeholder_mobile.png"
+        ],
+        "tech": ["react", "sass", "node"]
+    },
+    {
+        "title": "OMDb Frontend",
+        "description": "A frontend for a movie database using the Open Movies Database API. The project uses ReactJS as it's frontend framework with Sass for its CSS syntax. The demo showcases a random selection from the top 100 movies as rated by the IMDb.",
+        "github": "PLACEHOLDER",
+        "link": "PLACEHOLDER WEBSITE",
+        "images": [
+            "src/assets/images/placeholder.png",
+            "src/assets/images/placeholder2.png",
+            "src/assets/images/placeholder_mobile.png"
+        ],
+        "tech": ["react", "sass", "node"]
+    },
+    {
+        "title": "Minesweeper",
+        "description": "A frontend for a movie database using the Open Movies Database API. The project uses ReactJS as it's frontend framework with Sass for its CSS syntax. The demo showcases a random selection from the top 100 movies as rated by the IMDb.",
+        "github": "PLACEHOLDER",
+        "link": "PLACEHOLDER WEBSITE",
+        "images": [
+            "src/assets/images/minesweeper.png",
+            "src/assets/images/placeholder2.png",
+            "src/assets/images/placeholder_mobile.png"
+        ],
+        "tech": ["react", "sass", "node"]
+    }
+]
