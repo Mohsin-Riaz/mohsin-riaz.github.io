@@ -5,9 +5,9 @@
         "github": "PLACEHOLDER",
         "link": "PLACEHOLDER WEBSITE",
         "images": [
-            "src/assets/images/socialhub.png",
-            "src/assets/images/placeholder2.png",
-            "src/assets/images/placeholder_mobile.png"
+            "public/images/socialhub.png",
+            "public/images/placeholder2.png",
+            "public/images/placeholder_mobile.png"
         ],
         "tech": [
             "react",
@@ -25,9 +25,9 @@
         "github": "PLACEHOLDER",
         "link": "PLACEHOLDER WEBSITE",
         "images": [
-            "src/assets/images/placeholder.png",
-            "src/assets/images/placeholder2.png",
-            "src/assets/images/placeholder_mobile.png"
+            "public/images/placeholder.png",
+            "public/images/placeholder2.png",
+            "public/images/placeholder_mobile.png"
         ],
         "tech": [
             "react",
@@ -45,9 +45,9 @@
         "github": "PLACEHOLDER",
         "link": "PLACEHOLDER WEBSITE",
         "images": [
-            "src/assets/images/url-shortener.png",
-            "src/assets/images/placeholder2.png",
-            "src/assets/images/placeholder_mobile.png"
+            "public/images/url-shortener.png",
+            "public/images/placeholder2.png",
+            "public/images/placeholder_mobile.png"
         ],
         "tech": ["react", "node", "express", "postgres", "aws-lambda"]
     },
@@ -57,9 +57,9 @@
         "github": "PLACEHOLDER",
         "link": "PLACEHOLDER WEBSITE",
         "images": [
-            "src/assets/images/wordle.png",
-            "src/assets/images/placeholder2.png",
-            "src/assets/images/placeholder_mobile.png"
+            "public/images/wordle.png",
+            "public/images/placeholder2.png",
+            "public/images/placeholder_mobile.png"
         ],
         "tech": ["react", "sass", "node"]
     },
@@ -70,9 +70,9 @@
         "github": "PLACEHOLDER",
         "link": "PLACEHOLDER WEBSITE",
         "images": [
-            "src/assets/images/weather.png",
-            "src/assets/images/placeholder2.png",
-            "src/assets/images/placeholder_mobile.png"
+            "public/images/weather.png",
+            "public/images/placeholder2.png",
+            "public/images/placeholder_mobile.png"
         ],
         "tech": ["react", "sass", "node"]
     },
@@ -82,9 +82,9 @@
         "github": "PLACEHOLDER",
         "link": "PLACEHOLDER WEBSITE",
         "images": [
-            "src/assets/images/placeholder.png",
-            "src/assets/images/placeholder2.png",
-            "src/assets/images/placeholder_mobile.png"
+            "public/images/placeholder.png",
+            "public/images/placeholder2.png",
+            "public/images/placeholder_mobile.png"
         ],
         "tech": ["react", "sass", "node"]
     },
@@ -94,9 +94,9 @@
         "github": "PLACEHOLDER",
         "link": "PLACEHOLDER WEBSITE",
         "images": [
-            "src/assets/images/minesweeper.png",
-            "src/assets/images/placeholder2.png",
-            "src/assets/images/placeholder_mobile.png"
+            "public/images/minesweeper.png",
+            "public/images/placeholder2.png",
+            "public/images/placeholder_mobile.png"
         ],
         "tech": ["react", "sass", "node"]
     }
