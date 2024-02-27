@@ -1,9 +1,9 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import projects from './assets/projects.json';
 import Header from './components/Header.jsx';
 import Projects from './components/Projects.jsx';
 import ToTop from './components/ToTop.jsx';
+import projects from './public/projects.json';
 
 function App() {
     const [scrollPosition, setScrollPosition] = useState(0);
