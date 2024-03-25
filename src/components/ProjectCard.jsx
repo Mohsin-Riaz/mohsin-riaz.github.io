@@ -21,7 +21,7 @@ const ProjectCard = (props) => {
                     <div className="shadow-2"></div>
                     <img
                         className="tr-fast"
-                        src={props.images[0] || 'src/images/placeholder.png'}
+                        src={props.images[0] || '/images/placeholder.png'}
                         style={{
                             transform: onHover ? 'scale(1.01)' : null,
                         }}

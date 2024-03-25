@@ -4,7 +4,7 @@
         "description": "Social media website that allows you to create, like and comment on posts. React frontend with Redux for state management. RESTful backend for usernames and posts/comments CRUD. Second REST backend for image handling with AWS S3. MongoDB used for database storage for username/posts/comments info. OAuth2 used for signing in with Google accounts.",
         "github": "https://github.com/Mohsin-Riaz/social-hub-frontend/",
         "link": "http://mohsinriaz.ca/social-hub-frontend",
-        "images": ["src/images/socialhub.png"],
+        "images": ["/images/socialhub.png"],
         "tech": [
             "react",
             "sass",
@@ -21,7 +21,7 @@
         "description": "A simple React frontend that generates random shortened URLs and a QR code for any website the user wishes to link to. The backend runs off of Express and the URL links are stored/retrieved from a PostgreSQL database.",
         "github": "https://github.com/Mohsin-Riaz/url-shortener/",
         "link": "http://mohsinriaz.ca/url-shortener",
-        "images": ["src/images/url-shortener.png"],
+        "images": ["/images/url-shortener.png"],
         "tech": ["react", "node", "express", "postgres", "aws-lambda"]
     },
     {
@@ -29,7 +29,7 @@
         "description": "A wordle clone that is built in React using object orientated programming principals. The app uses CSS styling that is targeted toward mobile users.",
         "github": "https://github.com/Mohsin-Riaz/wordle-clone/",
         "link": "http://mohsinriaz.ca/wordle-clone",
-        "images": ["src/images/wordle.png"],
+        "images": ["/images/wordle.png"],
         "tech": ["react", "sass", "node"]
     },
     {
@@ -37,7 +37,7 @@
         "description": "Minesweeper game that showcases react state management and manipulation. Allows for multiple game modes via board size and number of mines.",
         "github": "https://github.com/Mohsin-Riaz/minesweeper/",
         "link": "http://mohsinriaz.ca/minesweeper",
-        "images": ["src/images/minesweeper.png"],
+        "images": ["/images/minesweeper.png"],
         "tech": ["react", "sass", "node"]
     },
 
@@ -46,7 +46,7 @@
         "description": "A simple React frontend weather app that uses two APIs to find the location and weather. Using Mapbox's API to find geolocation data for a user and WeatherStack's API to find and display weather for that location.",
         "github": "https://github.com/Mohsin-Riaz/weather-app/",
         "link": "http://mohsinriaz.ca/weather-app",
-        "images": ["src/images/weather.png"],
+        "images": ["/images/weather.png"],
         "tech": ["react", "sass", "node"]
     }
 ]

@@ -124,7 +124,7 @@ const Header = (props) => {
                         <div className="shadow" style={imgShadow}></div>
                         <img
                             style={img}
-                            src="src/images/profile-pic.jpg"
+                            src="/images/profile-pic.jpg"
                             alt="Mohsin Riaz"
                         />
                     </div>

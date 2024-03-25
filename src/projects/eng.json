@@ -3,14 +3,14 @@
         "title": "Stair Climbing Robot",
         "description": "Designed and manufactured an autonomous robot that is capable of traversing stairs. Principals of mechanical power transmission and computer aided manufacturing were used to complete this project. Software packages used include: SolidWorks, MasterCAM, MatLab",
         "link": "http://mohsinriaz.ca/stair-climber/",
-        "images": ["src/images/stair-climber.jpg"],
+        "images": ["/images/stair-climber.jpg"],
         "tech": []
     },
     {
         "title": "Tilt Pour Mould Machine",
         "description": "Design of a machine that is capable of holding and manipulating the angle of a mould in order to similuate Cosworth casting effect. Principals of machine design, vibrational analysis, thermal analysis and power transimission were used in order to complete this project. Software packages used include: SolidWorks and MatLab ",
         "link": "http://mohsinriaz.ca/tilt-pour",
-        "images": ["src/images/tilt-pour.jpg"],
+        "images": ["/images/tilt-pour.jpg"],
         "tech": []
     }
 ]
