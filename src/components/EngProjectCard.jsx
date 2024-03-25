@@ -3,7 +3,7 @@ import { HiCode } from 'react-icons/hi';
 import { LuMonitorDown } from 'react-icons/lu';
 import icons from '../../public/icons';
 
-const ProjectCard = (props) => {
+const EngProjectCard = (props) => {
     const [onHover, setOnHover] = useState(false);
     if (!props.title) {
         return;
@@ -41,16 +41,16 @@ const ProjectCard = (props) => {
                         ))}
                     </div>
                     <div className="project-card_footer_buttons">
-                        <a className="link_button link_demo " href={props.link}>
-                            <LuMonitorDown className="icon" />
-                            Demo
-                        </a>
                         <a
-                            className="link_button link_code"
-                            href={props.github}
+                            className="link_button link_demo "
+                            href={props.link}
+                            style={{
+                                paddingLeft: '.75em',
+                                paddingRight: '.75em',
+                            }}
                         >
-                            <HiCode className="icon" />
-                            Code
+                            <LuMonitorDown className="icon" />
+                            Info
                         </a>
                     </div>
                 </div>
@@ -59,4 +59,4 @@ const ProjectCard = (props) => {
     );
 };
 
-export default ProjectCard;
+export default EngProjectCard;

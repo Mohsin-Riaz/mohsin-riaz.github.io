@@ -366,3 +366,22 @@ a:active {
     box-shadow: 2px 2px 2px black;
     transform: translate(-1px, -1px);
 }
+
+.divider {
+    display: flex;
+    width: 95dvw;
+    height: 4em;
+    background-color: #342d50;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    box-shadow: 0px 2px 0px black;
+    align-items: center;
+}
+.divider > div {
+    color: white;
+    font-family: var(--roboto);
+    margin-left: 0.5em;
+    font-size: 2em;
+    vertical-align: middle;
+    display: inline-block;
+}

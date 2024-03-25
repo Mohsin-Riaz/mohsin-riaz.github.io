@@ -10,7 +10,6 @@ const Projects = (props) => {
                     <ProjectCard key={index} {...v} />
                 ))}
             </div>
-            {/* )} */}
         </section>
     );
 };

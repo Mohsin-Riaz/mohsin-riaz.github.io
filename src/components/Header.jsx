@@ -124,7 +124,7 @@ const Header = (props) => {
                         <div className="shadow" style={imgShadow}></div>
                         <img
                             style={img}
-                            src="public/images/profile-pic.jpg"
+                            src="src/images/profile-pic.jpg"
                             alt="Mohsin Riaz"
                         />
                     </div>
@@ -157,6 +157,9 @@ const Header = (props) => {
                     <div>•</div>
 
                     <div>AWS</div>
+                    <div>•</div>
+
+                    <div>Python</div>
                 </div>
                 <div className="header_contents__links">
                     <a
