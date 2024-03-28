@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { HiCode } from 'react-icons/hi';
 import { LuMonitorDown } from 'react-icons/lu';
-import icons from '../../public/icons';
+import icons from './icons';
 
 const EngProjectCard = (props) => {
     const [onHover, setOnHover] = useState(false);
