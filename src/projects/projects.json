@@ -19,16 +19,16 @@
     {
         "title": "URL Shortener",
         "description": "A simple React frontend that generates random shortened URLs and a QR code for any website the user wishes to link to. The backend runs off of Express and the URL links are stored/retrieved from a PostgreSQL database.",
-        "github": "https://github.com/Mohsin-Riaz/url-shortener/",
-        "link": "http://mohsinriaz.ca/url-shortener",
+        "github": "https://github.com/Mohsin-Riaz/url-shortener-frontend",
+        "link": "http://mohsinriaz.ca/url-shortener-frontend",
         "images": ["/images/url-shortener.png"],
         "tech": ["react", "node", "express", "postgres", "aws-lambda"]
     },
     {
         "title": "Wordle Clone",
         "description": "A wordle clone that is built in React using object orientated programming principals. The app uses CSS styling that is targeted toward mobile users.",
-        "github": "https://github.com/Mohsin-Riaz/wordle-clone/",
-        "link": "http://mohsinriaz.ca/wordle-clone",
+        "github": "https://github.com/Mohsin-Riaz/wordle-app/",
+        "link": "http://mohsinriaz.ca/wordle-app",
         "images": ["/images/wordle.png"],
         "tech": ["react", "sass", "node"]
     },

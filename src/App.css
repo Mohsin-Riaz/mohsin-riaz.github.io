@@ -113,6 +113,12 @@ a:active {
     /* font-family: var(--nunito); */
 }
 
+@media (width<=680px) {
+    .header_contents__tech {
+        font-size: 0.8em;
+    }
+}
+
 .header_contents__tech {
     font-family: var(--roboto);
 }
