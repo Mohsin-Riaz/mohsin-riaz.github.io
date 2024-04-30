@@ -97,6 +97,7 @@ const Header = (props) => {
         flexWrap: 'wrap',
         placeContent: 'center',
         userSelect: 'none',
+        fontSize: mobileWidth ? '0.65em' : '1.5em',
     };
 
     const header_contents__links_link = {
