@@ -39,5 +39,13 @@
         "link": "http://mohsinriaz.ca/minesweeper",
         "images": ["/images/minesweeper.png"],
         "tech": ["react", "sass", "node"]
+    },
+    {
+        "title": "Weather App",
+        "description": "A simple React frontend weather app that uses two APIs to find the location and weather. Using Mapbox's API to find geolocation data for a user and WeatherStack's API to find and display weather for that location.",
+        "github": "https://github.com/Mohsin-Riaz/weather-app/",
+        "link": "http://mohsinriaz.ca/weather-app",
+        "images": ["/images/weather.png"],
+        "tech": ["react", "sass", "node"]
     }
 ]
