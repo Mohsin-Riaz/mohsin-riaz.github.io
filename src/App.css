@@ -103,7 +103,7 @@ a:active {
     box-sizing: border-box;
     display: grid;
     height: 100%;
-    gap: 0.25em;
+    gap: 15px;
     color: white;
     user-select: none;
 }
@@ -206,6 +206,11 @@ a:active {
     box-sizing: border-box;
     padding-top: 255px;
 }
+
+.projects-wrapper {
+    padding-bottom: 65px;
+}
+
 @media (width>680px) {
     .projects-wrapper {
         box-sizing: border-box;
@@ -226,6 +231,7 @@ a:active {
         flex-direction: column;
         margin: 1em;
         padding: 0.5em;
+        padding-bottom: 1em;
     }
 }
 .project-card {

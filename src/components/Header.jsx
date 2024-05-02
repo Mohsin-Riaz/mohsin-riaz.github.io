@@ -6,44 +6,27 @@ const Header = (props) => {
     const { scrollPosition } = props;
     const mobileWidth = window.innerWidth <= 570;
 
+    const scrollPositionLarge = scrollPosition >= 125;
+    const scrollPositionSmall = scrollPosition <= 125;
+
     const header = {
-        padding: scrollPosition <= 175 ? '25px 10px 10px 10px' : '0px',
-        height: scrollPosition <= 175 ? 250 - scrollPosition + 'px' : '50px',
-        // boxSizing: 'border-box',
-        // position: 'fixed',
-        // backgroundColor: `#342d50`,
-        //     borderBottom: 'white',
-        //     width: '95dvw',
-        //     top: 0,
-        //     zIndex: 99,
-        //     minHeight: '50px',
-        //     alignItems: 'center',
-        //     display: 'flex',
+        padding: scrollPositionSmall ? '25px 10px 10px 10px' : '0px',
+        height: scrollPositionSmall ? 250 - scrollPosition + 'px' : '50px',
     };
 
     const header_contents = {
-        flexDirection: scrollPosition <= 175 ? 'column' : 'row',
-        // display: 'flex',
-        // alignItems: 'center',
-        // flexGrow: 1,
-        // placeContent: 'center space-between',
-        // marginInline: '1.5em',
+        flexDirection: scrollPositionSmall ? 'column' : 'row',
     };
 
     const header_contents__info = {
-        display: scrollPosition >= 175 ? 'grid' : mobileWidth ? 'grid' : 'flex',
-        gridTemplateColumns:
-            scrollPosition >= 175
-                ? '15% auto'
-                : mobileWidth
-                ? null
-                : '15% auto',
+        display: scrollPositionSmall ? 'grid' : mobileWidth ? 'grid' : 'flex',
+        gridTemplateColumns: scrollPositionLarge
+            ? '15% auto'
+            : mobileWidth
+            ? null
+            : '15% auto',
         flexDirection: mobileWidth ? 'column' : null,
         placeItems: mobileWidth ? 'center' : null,
-        // height: '100%',
-        // gap: '0.25em',
-        // color: 'white',
-        // userSelect: 'none',
     };
 
     const header_contents__name = {
@@ -55,19 +38,12 @@ const Header = (props) => {
         margin: 'auto',
     };
 
-    // const image_wrapper = {
-    //     boxSizing: 'border-box',
-    //     display: 'flex',
-    //     placeContent: 'center',
-    //     justifyItems: 'center',
-    //     placeItems: 'center',
-    //     width: 'fit-content',
-    // };
-
     const img = {
-        width: `calc(clamp(-75px,${
-            scrollPosition * 0.25 - 75 + 'px'
-        },-25px)*-1)`,
+        width: scrollPositionLarge
+            ? '25px'
+            : `calc(clamp(-75px,${
+                  scrollPosition * 0.25 - 75 + 'px'
+              },-25px)*-1)`,
 
         boxSizing: 'border-box',
         objectFit: 'cover',
@@ -82,9 +58,11 @@ const Header = (props) => {
         boxSizing: 'border-box',
         objectFit: 'cover',
         minWidth: '20px',
-        width: `calc(clamp(-75px,${
-            scrollPosition * 0.25 - 75 + 'px'
-        },-25px)*-1)`,
+        width: scrollPositionLarge
+            ? '25px'
+            : `calc(clamp(-75px,${
+                  scrollPosition * 0.25 - 75 + 'px'
+              },-25px)*-1)`,
         margin: 'auto',
     };
 
@@ -97,21 +75,21 @@ const Header = (props) => {
         flexWrap: 'wrap',
         placeContent: 'center',
         userSelect: 'none',
-        fontSize: mobileWidth ? '0.65em' : '1.5em',
+        fontSize: mobileWidth ? '0.65em' : '1.25em',
     };
 
     const header_contents__links_link = {
         boxSizing: 'border-box',
         display: 'inline-flex',
         marginInline: '0.5em',
-        padding: scrollPosition <= 175 ? '0' : '0.35em',
+        padding: scrollPositionSmall ? '0' : '0.35em',
         gap: '0.25em',
     };
 
     const link_text = {
         boxSizing: 'border-box',
-        paddingBottom: scrollPosition <= 175 ? '.2em' : null,
-        display: mobileWidth ? 'none' : scrollPosition <= 175 ? null : 'none',
+        paddingBottom: scrollPositionSmall ? '.2em' : null,
+        display: mobileWidth ? 'none' : scrollPositionSmall ? null : 'none',
     };
 
     return (
