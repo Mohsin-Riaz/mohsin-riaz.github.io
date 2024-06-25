@@ -30,8 +30,9 @@ const Header = (props) => {
     };
 
     const header_contents__name = {
+        // display: 'flex',
         fontSize: mobileWidth
-            ? '1.5em'
+            ? `1.35em`
             : `calc(clamp(-75px,${
                   scrollPosition * 0.25 - 75 + 'px'
               },-25px)*-1)`,
@@ -70,7 +71,7 @@ const Header = (props) => {
         boxSizing: 'border-box',
         color: 'white',
         fontStyle: 'italic',
-        display: scrollPosition <= 100 ? 'flex' : 'none',
+        display: scrollPosition <= 75 ? 'flex' : 'none',
         gap: '5px',
         flexWrap: 'wrap',
         placeContent: 'center',
@@ -99,7 +100,10 @@ const Header = (props) => {
                     className="header_contents__info"
                     style={header_contents__info}
                 >
-                    <div className="image_wrapper">
+                    <div
+                        className="image_wrapper"
+                        style={{ marginTop: 'auto', marginBottom: 'auto' }}
+                    >
                         <div className="shadow" style={imgShadow}></div>
                         <img
                             style={img}
