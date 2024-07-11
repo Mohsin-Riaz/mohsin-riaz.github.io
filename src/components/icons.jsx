@@ -4,6 +4,7 @@ import {
     SiAwslambda,
     SiBun,
     SiExpress,
+    SiGnubash,
     SiGo,
     SiMongodb,
     SiPostgresql,
@@ -30,8 +31,8 @@ const icons = {
     typescript: <SiTypescript key="typescript" />,
     python: <SiPython key="SiPython" />,
     go: <SiGo key="SiGo" />,
-    bun: <SiBun key="SiBun" />,
     rust: <SiRust key="SiRust" />,
+    bash: <SiGnubash key="SiGnubash" />,
 };
 
 export default icons;

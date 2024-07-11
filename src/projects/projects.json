@@ -41,6 +41,20 @@
         "tech": ["react", "sass", "node"]
     },
     {
+        "title": "Emotion Detection",
+        "description": "Translates input to 5 distinct emotion categories using IBM Watson natural language processor.",
+        "github": "https://github.com/Mohsin-Riaz/emotion-detection",
+        "images": ["/images/emotion-detection.png"],
+        "tech": ["python"]
+    },
+    {
+        "title": "Sheduled Archiver",
+        "description": "Shell archiver that backups files every 24 hours",
+        "github": "https://github.com/Mohsin-Riaz/scheduled-archiver",
+        "images": ["/images/scheduled-archiver.png"],
+        "tech": ["bash"]
+    },
+    {
         "title": "Weather App",
         "description": "A simple React frontend weather app that uses two APIs to find the location and weather. Using Mapbox's API to find geolocation data for a user and WeatherStack's API to find and display weather for that location.",
         "github": "https://github.com/Mohsin-Riaz/weather-app/",

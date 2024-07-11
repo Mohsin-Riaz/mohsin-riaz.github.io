@@ -41,10 +41,15 @@ const ProjectCard = (props) => {
                         ))}
                     </div>
                     <div className="project-card_footer_buttons">
-                        <a className="link_button link_demo " href={props.link}>
-                            <LuMonitorDown className="icon" />
-                            Demo
-                        </a>
+                        {!!props.link && (
+                            <a
+                                className="link_button link_demo "
+                                href={props.link}
+                            >
+                                <LuMonitorDown className="icon" />
+                                Demo
+                            </a>
+                        )}
                         <a
                             className="link_button link_code"
                             href={props.github}
