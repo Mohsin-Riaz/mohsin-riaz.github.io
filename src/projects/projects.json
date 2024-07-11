@@ -45,7 +45,7 @@
         "description": "Translates input to 5 distinct emotion categories using IBM Watson natural language processor.",
         "github": "https://github.com/Mohsin-Riaz/emotion-detection",
         "images": ["/images/emotion-detection.png"],
-        "tech": ["python"]
+        "tech": ["python", "flask", "node"]
     },
     {
         "title": "Sheduled Archiver",
