@@ -42,13 +42,13 @@
     },
     {
         "title": "Emotion Detection",
-        "description": "Translates input to 5 distinct emotion categories using IBM Watson natural language processor.",
+        "description": "Translates input into 5 distinct emotion categories using IBM Watson natural language processor.",
         "github": "https://github.com/Mohsin-Riaz/emotion-detection",
         "images": ["/images/emotion-detection.png"],
         "tech": ["python", "flask", "node"]
     },
     {
-        "title": "Sheduled Archiver",
+        "title": "Scheduled Archiver",
         "description": "Shell archiver that backups files every 24 hours",
         "github": "https://github.com/Mohsin-Riaz/scheduled-archiver",
         "images": ["/images/scheduled-archiver.png"],
