@@ -34,7 +34,7 @@ const ProjectCard = (props) => {
                 <p className="project-card_text">{props.description}</p>
                 <div className="project-card_footer">
                     <div className="tech-icons">
-                        {props.tech.map((tech) => (
+                        {props.tech.sort().map((tech) => (
                             <div className="tech-icon" key={tech}>
                                 {icons[tech]}
                             </div>

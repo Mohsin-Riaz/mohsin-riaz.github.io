@@ -12,17 +12,25 @@
             "express",
             "mongo",
             "aws-s3",
-            "aws-lambda"
+            "aws-lambda",
+            "redux",
+            "serverless"
         ]
     },
-
     {
         "title": "URL Shortener",
-        "description": "A simple React frontend that generates random shortened URLs and a QR code for any website the user wishes to link to. The backend runs off of Express and the URL links are stored/retrieved from a PostgreSQL database.",
+        "description": "A simple React frontend that generates random shortened URLs and a QR code for any website the user wishes to link to. The Java backend uses Spring Boot and the URL links are stored/retrieved from a PostgreSQL database.",
         "github": "https://github.com/Mohsin-Riaz/url-shortener-frontend",
         "link": "http://mohsinriaz.ca/url-shortener-frontend",
         "images": ["/images/url-shortener.png"],
-        "tech": ["react", "node", "express", "postgres", "aws-lambda"]
+        "tech": [
+            "react",
+            "postgres",
+            "aws-lambda",
+            "serverless",
+            "java",
+            "springboot"
+        ]
     },
     {
         "title": "Wordle Clone",
@@ -52,7 +60,7 @@
         "description": "Shell archiver that backups files every 24 hours",
         "github": "https://github.com/Mohsin-Riaz/scheduled-archiver",
         "images": ["/images/scheduled-archiver.png"],
-        "tech": ["bash"]
+        "tech": ["bash", "linux"]
     },
     {
         "title": "Weather App",
@@ -60,6 +68,6 @@
         "github": "https://github.com/Mohsin-Riaz/weather-app/",
         "link": "http://mohsinriaz.ca/weather-app",
         "images": ["/images/weather.png"],
-        "tech": ["react", "sass", "node"]
+        "tech": ["react", "sass", "node", "serverless"]
     }
 ]
