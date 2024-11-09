@@ -2,6 +2,7 @@ import { FaJava } from 'react-icons/fa';
 import {
     SiAmazonaws,
     SiAwslambda,
+    SiDocker,
     SiExpress,
     SiFlask,
     SiGithubactions,
@@ -56,6 +57,7 @@ const icons = {
     githubactions: (
         <SiGithubactions key="githubactions" title="GitHub Actions" />
     ),
+    docker: <SiDocker key="docker" title="Docker" />,
 };
 
 export default icons;

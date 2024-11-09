@@ -19,7 +19,7 @@
     },
     {
         "title": "URL Shortener",
-        "description": "A simple React frontend that generates random shortened URLs and a QR code for any website the user wishes to link to. The Java backend uses Spring Boot and the URL links are stored/retrieved from a PostgreSQL database.",
+        "description": "A simple React frontend that generates random shortened URLs and a QR code for any website the user wishes to link to. A Java backend using Spring Boot and Maven that stores and retrieves URLs from a PostgreSQL database, all running within a Docker container for easy deployment and scalability.",
         "github": "https://github.com/Mohsin-Riaz/url-shortener-frontend",
         "link": "http://mohsinriaz.ca/url-shortener-frontend",
         "images": ["/images/url-shortener.png"],
@@ -29,7 +29,8 @@
             "aws-lambda",
             "serverless",
             "java",
-            "springboot"
+            "springboot",
+            "docker"
         ]
     },
     {
@@ -50,14 +51,14 @@
     },
     {
         "title": "Emotion Detection",
-        "description": "Translates input into 5 distinct emotion categories using IBM Watson natural language processor.",
+        "description": "Translates input into 5 distinct emotion categories using IBM Watson natural language processor. Uses NodeJS and Python with Flask.",
         "github": "https://github.com/Mohsin-Riaz/emotion-detection",
         "images": ["/images/emotion-detection.png"],
         "tech": ["python", "flask", "node"]
     },
     {
         "title": "Scheduled Archiver",
-        "description": "Shell archiver that backups files every 24 hours",
+        "description": "The Scheduled Archiver is a bash script for automating daily backups of files modified in the last 24 hours. It compresses the files from a target directory into a timestamped .tar.gz archive and moves it to a destination directory. Ideal for use with a cron job to automate regular backups.",
         "github": "https://github.com/Mohsin-Riaz/scheduled-archiver",
         "images": ["/images/scheduled-archiver.png"],
         "tech": ["bash", "linux"]

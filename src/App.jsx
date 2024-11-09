@@ -25,24 +25,24 @@ function App() {
         };
     }, []);
 
-    // useEffect(() => {
-    //     const projectsJsonUrl = import.meta.env.VITE_PROJECTS_JSON;
-    //     const engJsonUrl = import.meta.env.VITE_PROJECTS_ENG_JSON;
+    useEffect(() => {
+        const projectsJsonUrl = import.meta.env.VITE_PROJECTS_JSON;
+        const engJsonUrl = import.meta.env.VITE_PROJECTS_ENG_JSON;
 
-    //     (async () => {
-    //         const resp = await axios.get(projectsJsonUrl);
-    //         if (resp.status === 200 || resp.statusText === 'OK') {
-    //             setProjectState(resp.data);
-    //         }
-    //     })();
+        (async () => {
+            const resp = await axios.get(projectsJsonUrl);
+            if (resp.status === 200 || resp.statusText === 'OK') {
+                setProjectState(resp.data);
+            }
+        })();
 
-    //     (async () => {
-    //         const resp = await axios.get(engJsonUrl);
-    //         if (resp.status === 200 || resp.statusText === 'OK') {
-    //             setEngProjectState(resp.data);
-    //         }
-    //     })();
-    // }, []);
+        (async () => {
+            const resp = await axios.get(engJsonUrl);
+            if (resp.status === 200 || resp.statusText === 'OK') {
+                setEngProjectState(resp.data);
+            }
+        })();
+    }, []);
 
     if (!projectState) {
         return <h3>Loading</h3>;
