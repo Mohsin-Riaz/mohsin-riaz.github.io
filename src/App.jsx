@@ -10,7 +10,6 @@ import ToTop from './components/ToTop.jsx';
 function App() {
     const [scrollPosition, setScrollPosition] = useState(0);
     const [projectState, setProjectState] = useState(projects);
-    const [engProjectState, setEngProjectState] = useState(eng);
 
     const handleScroll = () => {
         const position = window.scrollY;
@@ -23,25 +22,6 @@ function App() {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
-    }, []);
-
-    useEffect(() => {
-        const projectsJsonUrl = import.meta.env.VITE_PROJECTS_JSON;
-        const engJsonUrl = import.meta.env.VITE_PROJECTS_ENG_JSON;
-
-        (async () => {
-            const resp = await axios.get(projectsJsonUrl);
-            if (resp.status === 200 || resp.statusText === 'OK') {
-                setProjectState(resp.data);
-            }
-        })();
-
-        (async () => {
-            const resp = await axios.get(engJsonUrl);
-            if (resp.status === 200 || resp.statusText === 'OK') {
-                setEngProjectState(resp.data);
-            }
-        })();
     }, []);
 
     if (!projectState) {

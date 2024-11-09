@@ -3,7 +3,6 @@ on:
     push:
         branches:
             - main
-    # Add workflow dispatch to allow manual triggers
     workflow_dispatch:
 
 jobs:
@@ -13,12 +12,12 @@ jobs:
 
         steps:
             - name: Checkout repo
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
 
             - name: Setup Node
-              uses: actions/setup-node@v3
+              uses: actions/setup-node@v4
               with:
-                  node-version: 16
+                  node-version: 20
                   cache: 'npm'
 
             - name: Install dependencies
@@ -28,11 +27,8 @@ jobs:
               run: npm run build
 
             - name: Deploy to GitHub Pages
-              uses: peaceiris/actions-gh-pages@v3
+              uses: JamesIves/github-pages-deploy-action@v4
               with:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
-                  publish_dir: ./dist
-                  # Add useful configurations
-                  enable_jekyll: false
-                  force_orphan: true
-                  commit_message: 'Deploy: ${{ github.sha }}'
+                  folder: dist
+                  clean: true
+                  single-commit: true
